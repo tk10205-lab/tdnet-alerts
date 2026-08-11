@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TDNet要注目 2026-08-11</title>
+<style>
+body{font-family:system-ui,-apple-system,sans-serif;margin:0;background:#f5f6f8;color:#222}
+.header{background:#1a1a2e;color:#fff;padding:16px}
+.header h1{font-size:18px;margin:0}
+.header .sub{font-size:12px;opacity:.75;margin-top:4px}
+.tabs{display:flex;overflow-x:auto;background:#fff;border-bottom:2px solid #e5e7eb;position:sticky;top:0;-webkit-overflow-scrolling:touch}
+.tab{flex:0 0 auto;padding:10px 14px;font-size:13px;border:none;background:none;color:#555;white-space:nowrap;cursor:pointer}
+.tab.active{color:#0a58ca;font-weight:700;border-bottom:2px solid #0a58ca;margin-bottom:-2px}
+.panel{display:none;padding:8px 12px 40px}
+.panel.active{display:block}
+.item{background:#fff;border-radius:8px;padding:10px 12px;margin-top:8px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.row1{display:flex;gap:10px;align-items:baseline;font-size:13px;flex-wrap:wrap}
+.time{color:#888;font-size:12px}
+.code a{color:#0a58ca;font-weight:700;text-decoration:underline}
+.name{font-weight:600}
+.title{font-size:12px;color:#555;margin-top:4px;line-height:1.5}
+.foot{padding:16px;font-size:11px;color:#aaa;text-align:center}
+</style>
+</head>
+<body>
+<div class="header"><h1>📊 TDNet 要注目開示</h1><div class="sub">2026-08-11 ｜ 2件のポジティブシグナル</div></div>
+<div class="tabs" id="tabs"><button class="tab" data-id="other_material">⚠️ 重要事項 (2)</button></div>
+<div class="panel" id="p-other_material"><div class="item"><div class="row1"><span class="time">17:00</span><span class="code"><a href="https://www.release.tdnet.info/inbs/140120260810516356.pdf" target="_blank" rel="noopener">4889</a></span><span class="name">レナサイエンス</span></div><div class="title">XPRIZE Healthspan 参加取り止めに関するお知らせ</div></div><div class="item"><div class="row1"><span class="time">18:30</span><span class="code"><a href="https://www.release.tdnet.info/inbs/140120260811517496.pdf" target="_blank" rel="noopener">6758</a></span><span class="name">ソニーグループ</span></div><div class="title">ソニーセミコンダクタソリューションズとTSMCとの合弁会社設立に関する確定契約締結のお知らせ</div></div></div>
+<div class="foot">TDNet 適時開示アーカイブ — 自動生成 ／ 情報提供目的のみ</div>
+<script>
+function show(id){
+  var tabs=document.querySelectorAll('.tab');
+  for(var i=0;i<tabs.length;i++){tabs[i].classList.toggle('active', tabs[i].getAttribute('data-id')===id);}
+  var panels=document.querySelectorAll('.panel');
+  for(var j=0;j<panels.length;j++){panels[j].classList.toggle('active', panels[j].id==='p-'+id);}
+}
+var tabEls=document.querySelectorAll('.tab');
+for(var k=0;k<tabEls.length;k++){
+  (function(t){t.addEventListener('click',function(){show(t.getAttribute('data-id'));history.replaceState(null,'','#'+t.getAttribute('data-id'));});})(tabEls[k]);
+}
+var h=location.hash.replace('#','');
+var first=document.querySelector('.tab');
+show(document.getElementById('p-'+h)?h:(first?first.getAttribute('data-id'):''));
+</script>
+</body>
+</html>
