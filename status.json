@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "date": "2026-10-05",
-  "run_at": "2026-10-05T19:00:28Z",
+  "date": "2026-10-06",
+  "run_at": "2026-10-06T16:27:26Z",
   "event": "schedule",
-  "run_url": "https://github.com/tk10205-lab/tdnet-archive/actions/runs/37360044701",
+  "run_url": "https://github.com/tk10205-lab/tdnet-archive/actions/runs/37495554918",
   "overall": "ok",
   "problems": [],
   "steps": {
@@ -14,11 +14,11 @@
     "send_alert": "success",
     "send_earnings": "success"
   },
-  "disclosures": 198,
+  "disclosures": 146,
   "master_ok": true,
   "alert": {
     "status": "sent",
-    "items": 153
+    "items": 103
   },
   "earnings": {
     "status": "skipped_no_signal",
