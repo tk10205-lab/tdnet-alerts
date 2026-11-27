@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "date": "2026-11-26",
-  "run_at": "2026-11-26T10:06:12Z",
+  "date": "2026-11-27",
+  "run_at": "2026-11-27T10:03:46Z",
   "event": "workflow_dispatch",
-  "run_url": "https://github.com/tk10205-lab/tdnet-archive/actions/runs/45797545055",
+  "run_url": "https://github.com/tk10205-lab/tdnet-archive/actions/runs/45978370189",
   "overall": "ok",
   "problems": [],
   "steps": {
@@ -14,11 +14,11 @@
     "send_alert": "success",
     "send_earnings": "success"
   },
-  "disclosures": 199,
+  "disclosures": 269,
   "master_ok": true,
   "alert": {
     "status": "sent",
-    "items": 166
+    "items": 231
   },
   "earnings": {
     "status": "skipped_no_signal",
